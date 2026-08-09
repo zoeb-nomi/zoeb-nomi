@@ -5,9 +5,9 @@ I make production AI systems safe to trust in domains where a wrong answer
 has professional consequences, not just bad reviews.
 
 Day job: I own LLM output quality for an AI-native tax research platform —
-evaluation loops, LLM-as-judge scoring with human validation, public and
-competitive benchmarking (1,200+ agent runs across frontier models), and the
-270K+-record retrieval corpus underneath it all.
+evaluation loops, LLM-as-judge scoring with human validation, competitive
+benchmarking across frontier models, and the production retrieval corpus
+underneath it all.
 
 ## 🔍 CrossSource
 
@@ -17,9 +17,9 @@ reproducible eval harness for citation-level reliability of legal RAG.
 - 25 human-authored golden questions over public US case law
 - Citation precision/recall with a failure-mode taxonomy, faithfulness, relevance
 - LLM judge blind-validated at **100% human agreement** — and the human pass
-  caught a harness bug the judge scored without noticing
+caught a harness bug the judge scored without noticing
 - Headline: citation-discipline prompting lifted precision **0.981 → 0.994**;
-  recall (0.760) is retrieval-capped, not generation-capped
+recall (0.760) is retrieval-capped, not generation-capped
 
 Currently building **v0.2**: an agent-evaluation module — tool-call
 correctness and trajectory scoring for an agentic retrieve → cite →
@@ -31,4 +31,4 @@ Quality isn't a vibe; it's a measurement system. Golden sets are
 human-authored, judges are validated before they're trusted, and every
 score decomposes to a failure mode someone can fix.
 
-📫 [LinkedIn](https://www.linkedin.com/in/zoebnomi) · [zoebnomi.com](https://zoebnomi.com)
+📫 [LinkedIn](https://www.linkedin.com/in/zoebnomi) · [zoebnomi.com](https://www.zoebnomi.com)
