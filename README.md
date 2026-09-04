@@ -15,6 +15,10 @@ Day job: I own LLM output quality for an AI-native tax research platform — eva
 
 Currently building **v0.2**: an agent-evaluation module — tool-call correctness and trajectory scoring for an agentic retrieve → cite → self-check loop.
 
+## 🪞 mirror-eval
+
+The same harness pointed at my own AI-search presence: what the engines say about me, graded against ground truth. The honest result so far — the check I trusted most was structurally unable to fire (0/332), and two LLM judges were uncorrelated with the human labels. Public repo; write-up coming once the frame is right.
+
 ## How I think about evals
 
 Quality isn't a vibe; it's a measurement system. Golden sets are human-authored, judges are validated before they're trusted, and every score decomposes to a failure mode someone can fix.
