@@ -17,7 +17,7 @@ An eval harness for citation accuracy over public US case law. Before trusting t
 
 ### [cheap-tier-legal-tax-hr](https://github.com/zoeb-nomi/cheap-tier-legal-tax-hr): where does a 10-cent model belong?
 
-Oct 2026 · [findings](https://github.com/zoeb-nomi/cheap-tier-legal-tax-hr/blob/main/FINDINGS.md)
+Oct 2026 · [write-up](https://www.zoebnomi.com/notes/cheap-tier-workflows/) · [findings](https://github.com/zoeb-nomi/cheap-tier-legal-tax-hr/blob/main/FINDINGS.md)
 
 Five models, one yes/no prompt with a stated confidence, 1,414 expert-labelled items from LegalBench and Alinia's regulated-advice-bench. The cheap models land within a few points of each other on accuracy, but "sure" means very different things. Haiku 5.5 is sure (0.9 or higher) on 28 in 100 answers and right on 99 in 100 of those. The other three cheap models are sure on 92 to 93 in 100 and wrong on 15 to 16 in 100 of those. Per domain, the repo then compares one cheap model alone, a Haiku gate with Opus or a person reading the rest, and two cheap readers with Opus deciding their disagreements.
 
