@@ -15,6 +15,8 @@ v0.3 · Oct 2026 · [case study](https://www.zoebnomi.com/crosssource/) · [DOI]
 
 An eval harness for citation accuracy over public US case law. Before trusting the LLM judge, I re-labelled a blind sample: 15 of 15 agreed, and that pass caught a harness bug the judge had scored without noticing ([write-up](https://www.zoebnomi.com/writing/the-judge-caught-a-bug/)). On 25 questions, a stricter citation prompt moved precision from 0.981 to 0.994: three wrong-passage citations became one. Recall stayed at 0.760 because the misses were never retrieved, not wrongly answered. v0.3 adds 150 items over 45 appellate opinions (2018 to 2026) from CourtListener. Models drafted and labelled them and I adjudicated 30, so it is model-checked, not human-labelled throughout.
 
+Try its citation check as a free MCP tool: [zoebnomi-mcp](https://github.com/zoeb-nomi/zoebnomi-mcp), live at `https://mcp.zoebnomi.com/mcp`. On the held-out half of the v0.3 citation set it caught 10 of 10 citations pointing at the wrong opinion with no model call, and hands misstatements to a judge.
+
 ### [cheap-tier-legal-tax-hr](https://github.com/zoeb-nomi/cheap-tier-legal-tax-hr): where does a 10-cent model belong?
 
 Oct 2026 · [write-up](https://www.zoebnomi.com/notes/cheap-tier-workflows/) · [findings](https://github.com/zoeb-nomi/cheap-tier-legal-tax-hr/blob/main/FINDINGS.md)
